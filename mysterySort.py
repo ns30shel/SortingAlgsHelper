@@ -1,7 +1,6 @@
 # Mystery Sort 1
 # What is the time complexity of it?
 # What are the limitations of this sort?
-
 def mysterySort1(inputArr):
     arr = [0] * len(inputArr)
 
@@ -10,9 +9,10 @@ def mysterySort1(inputArr):
 
     return arr
 
-def mystery1:
+# This will call MS1 with the appropriate output.
+def mystery1():
     arr = [45, 29, 12, 76, 67, 88, 100, 34, 52, 92]
 
     print("Starting Array: ", arr)
-    print("Final Array: ", mysterySort(arr))
+    print("Final Array: ", mysterySort1(arr))
 
